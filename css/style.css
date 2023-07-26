@@ -43,4 +43,63 @@ img {
 
 /*============================================
         all typography css part ends here
+==============================================*/
+/*============================================
+        navbar css part start here
+==============================================*/
+#navbar_part {
+  width: 100%;
+  margin-top: 50px;
+}
+#navbar_part .nav_body .container {
+  margin: 0 auto;
+  background: #F85559;
+  height: 100px;
+  border-radius: 80px;
+}
+#navbar_part .nav_body .container .nav_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+#navbar_part .nav_body .container .nav_main .nav_item ul li {
+  display: inline-block;
+}
+#navbar_part .nav_body .container .nav_main .nav_item ul li a {
+  text-decoration: none;
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+#navbar_part .nav_body .container .nav_main .nav_image {
+  display: flex;
+}
+#navbar_part .nav_body .container .nav_main .nav_image h2 {
+  padding: 2px 0 0 15px;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+#navbar_part .nav_body .container .nav_main .nav_search input {
+  height: 30px;
+  width: 80%;
+  border: none;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: rgba(18, 18, 18, 0.3019607843);
+}
+#navbar_part .nav_body .container .nav_main .nav_search i {
+  height: 30px;
+  margin-left: -30px;
+}
+
+/*============================================
+        navbar css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
