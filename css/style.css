@@ -299,6 +299,104 @@ img {
 /*============================================
         team css part start here
 ==============================================*/
+#team_part {
+  width: 100%;
+  margin: 50px 0;
+}
+#team_part .team_body .team_main {
+  background-image: url(../images/team.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+#team_part .team_body .team_main .team_overlay {
+  position: absolute;
+  background-image: url(../images/Rectangle-5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#team_part .team_body .team_main .team_overlay .team_text {
+  text-align: center;
+  padding-top: 80px;
+}
+#team_part .team_body .team_main .team_overlay .team_text h3 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+#team_part .team_body .team_main .team_overlay .team_text p {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+}
+#team_part .team_body .team_main .team_overlay .team_card {
+  padding-top: 15px;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row {
+  display: flex;
+  justify-content: space-between;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column {
+  width: 25%;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main {
+  padding: 25px 0;
+  text-align: center;
+  width: 100%;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main .model {
+  width: 100%;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main .model img {
+  width: 50%;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main .model .card1 {
+  width: 41%;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main .price {
+  padding-top: 15px;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main .price h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main .name {
+  padding-top: 5px;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main .name p {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main .details ul {
+  padding-left: 0;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main .details ul li {
+  display: inline-block;
+}
+#team_part .team_body .team_main .team_overlay .team_card .card_body .row .column .card_main .details ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  padding: 2px 8px;
+  background: #F85559;
+  border: 1px solid #F85559;
+  border-radius: 100%;
+  margin: 0 5px;
+}
+
 /*============================================
         team css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
