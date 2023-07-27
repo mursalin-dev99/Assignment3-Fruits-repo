@@ -3,16 +3,114 @@
 ==============================================*/
 #deal_part{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 250px;
+    margin-bottom: 50px;
     .deal_body{
-        .container{
-            margin: 0 auto;
-            .deal_main{
-                .deal_head{
-                    height: 100px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
+        .deal_main{
+            .deal_head{
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .head_text{
+                    h3{
+                        font-size: 38px;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                        font-family: 'Lato', sans-serif;
+                        color: #121212;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: 300;
+                        font-family: 'Lato', sans-serif;
+                        width: 600px;
+                        line-height: 1.5rem;
+                        color: #121212ab;
+                    }
+                }
+            }
+            .deal_card{
+                margin-top: 40px;
+                .card_body{
+                    .row{
+                        display: flex;
+                        justify-content: space-between;
+                        .column{
+                            width: 24%;
+                            border-radius: 10px;
+                            border: 1px solid #12121228;
+                            padding: 20px 40px;
+                            .card_main{
+                                padding: 25px 0;
+                                text-align: center;
+                                width: 100%;
+                                .model{
+                                    width: 100%;
+                                    img{
+                                        width: 50%;
+                                    }
+                                    .card1{
+                                        width: 41%;
+                                    }
+                                }
+                                .price{
+                                    padding: 20px 0;
+                                    border-bottom: 1px solid #12121228;
+                                    h4{
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                        color: #121212;
+                                        font-family: 'Lato', sans-serif;
+                                    }
+                                }
+                                .name{
+                                    padding-top: 15px;
+                                    p{
+                                        font-size: 16px;
+                                        font-weight: 300;
+                                        color: #1212126e;
+                                        font-family: 'Lato', sans-serif;
+                                    }
+                                }
+                                .ratings{
+                                    padding-top: 10px;
+                                    img{
+                                        width: 120px;
+                                    }
+                                }
+                                .details{
+                                    padding-top: 15px;
+                                    a{
+                                        text-decoration: none;
+                                        font-size: 16px;
+                                        font-weight: 700;
+                                        color: #F85559;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .deal_btn{
+                text-align: center;
+                margin-top: 50px;
+                a{
+                    background: #F85559;
+                    color: #fff;
+                    text-decoration: none;
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    border: 1px solid #F85559;
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-family: 'Lato', sans-serif;
+                    &:hover{
+                        color: #F85559;
+                        background: transparent;
+
+                    }
                 }
             }
         }

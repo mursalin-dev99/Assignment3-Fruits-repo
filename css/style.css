@@ -188,18 +188,117 @@ img {
 ==============================================*/
 #deal_part {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 250px;
+  margin-bottom: 50px;
 }
-#deal_part .deal_body .container {
-  margin: 0 auto;
-}
-#deal_part .deal_body .container .deal_main .deal_head {
+#deal_part .deal_body .deal_main .deal_head {
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+#deal_part .deal_body .deal_main .deal_head .head_text h3 {
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  color: #121212;
+}
+#deal_part .deal_body .deal_main .deal_head .head_text p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  width: 600px;
+  line-height: 1.5rem;
+  color: rgba(18, 18, 18, 0.6705882353);
+}
+#deal_part .deal_body .deal_main .deal_card {
+  margin-top: 40px;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row {
+  display: flex;
+  justify-content: space-between;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column {
+  width: 24%;
+  border-radius: 10px;
+  border: 1px solid rgba(18, 18, 18, 0.1568627451);
+  padding: 20px 40px;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main {
+  padding: 25px 0;
+  text-align: center;
+  width: 100%;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .model {
+  width: 100%;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .model img {
+  width: 50%;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .model .card1 {
+  width: 41%;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .price {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(18, 18, 18, 0.1568627451);
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .price h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #121212;
+  font-family: "Lato", sans-serif;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .name {
+  padding-top: 15px;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .name p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(18, 18, 18, 0.431372549);
+  font-family: "Lato", sans-serif;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .ratings {
+  padding-top: 10px;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .ratings img {
+  width: 120px;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .details {
+  padding-top: 15px;
+}
+#deal_part .deal_body .deal_main .deal_card .card_body .row .column .card_main .details a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #F85559;
+}
+#deal_part .deal_body .deal_main .deal_btn {
+  text-align: center;
+  margin-top: 50px;
+}
+#deal_part .deal_body .deal_main .deal_btn a {
+  background: #F85559;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #F85559;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+}
+#deal_part .deal_body .deal_main .deal_btn a:hover {
+  color: #F85559;
+  background: transparent;
+}
 
 /*============================================
         deal css part ends here
+==============================================*/
+/*============================================
+        team css part start here
+==============================================*/
+/*============================================
+        team css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
