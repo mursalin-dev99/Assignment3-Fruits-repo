@@ -1,0 +1,23 @@
+/*============================================
+        deal css part start here
+==============================================*/
+#deal_part{
+    width: 100%;
+    margin-top: 50px;
+    .deal_body{
+        .container{
+            margin: 0 auto;
+            .deal_main{
+                .deal_head{
+                    height: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+/*============================================
+        deal css part ends here
+==============================================*/
