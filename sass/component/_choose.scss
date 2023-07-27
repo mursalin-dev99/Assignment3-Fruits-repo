@@ -1,0 +1,126 @@
+/*============================================
+        choose css part start here
+==============================================*/
+#choose_part{
+    width: 100%;
+    margin: 50px 0;
+    .choose_body{
+        .choose_main{
+            .choose_head{
+                text-align: center;
+                h3{
+                    color: #121212;
+                    font-size: 48px;
+                    font-weight: 700;
+                    font-family: 'Lato', sans-serif;
+                }
+                p{
+                    color: #12121285;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: 'Lato', sans-serif;
+                    line-height: 1.5rem;
+                }
+            }
+            .choose_item{
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-between;
+                .item1{
+                    width: 33%;
+                    .item_body{
+                        display: flex;
+                        justify-content: space-between;
+                        .item_icon{
+                            padding-right: 15px;
+                            i{
+                                background: #1212122a;
+                                border-radius: 50%;
+                                padding: 15px 13px;
+                            }
+                        }
+                        .item_text{
+                            h4{
+                                color: #121212;
+                                font-size: 24px;
+                                font-weight: 700;
+                                font-family: 'Lato', sans-serif;
+                                text-transform: capitalize;
+                                position: relative;
+                                &::after{
+                                    position: absolute;
+                                    content: "";
+                                    top: 35px;
+                                    left: 0;
+                                    height: 1px;
+                                    width: 40%;
+                                    background: #12121281;
+                                }
+                            }
+                            p{
+                                padding-top: 10px;
+                                color: #12121277;
+                                font-size: 16px;
+                                font-weight: 300;
+                                font-family: 'Lato', sans-serif;
+                            }
+                        }
+                    }
+                }
+                .item_image{
+                    width: 33%;
+                    height: 300px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .item2{
+                    width: 33%;
+                    text-align: right;
+                    .item_body{
+                        display: flex;
+                        justify-content: space-between;
+                        .item_icon{
+                            padding-left: 15px;
+                            i{
+                                background: #1212122a;
+                                border-radius: 50%;
+                                padding: 15px 13px;
+                            }
+                        }
+                        .item_text{
+                            h4{
+                                color: #121212;
+                                font-size: 24px;
+                                font-weight: 700;
+                                font-family: 'Lato', sans-serif;
+                                text-transform: capitalize;
+                                position: relative;
+                                &::after{
+                                    position: absolute;
+                                    content: "";
+                                    top: 35px;
+                                    right: 0;
+                                    height: 1px;
+                                    width: 40%;
+                                    background: #12121281;
+                                }
+                            }
+                            p{
+                                padding-top: 10px;
+                                color: #12121277;
+                                font-size: 16px;
+                                font-weight: 300;
+                                font-family: 'Lato', sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        choose css part ends here
+==============================================*/

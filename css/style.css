@@ -399,4 +399,123 @@ img {
 
 /*============================================
         team css part ends here
+==============================================*/
+/*============================================
+        choose css part start here
+==============================================*/
+#choose_part {
+  width: 100%;
+  margin: 50px 0;
+}
+#choose_part .choose_body .choose_main .choose_head {
+  text-align: center;
+}
+#choose_part .choose_body .choose_main .choose_head h3 {
+  color: #121212;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+#choose_part .choose_body .choose_main .choose_head p {
+  color: rgba(18, 18, 18, 0.5215686275);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5rem;
+}
+#choose_part .choose_body .choose_main .choose_item {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#choose_part .choose_body .choose_main .choose_item .item1 {
+  width: 33%;
+}
+#choose_part .choose_body .choose_main .choose_item .item1 .item_body {
+  display: flex;
+  justify-content: space-between;
+}
+#choose_part .choose_body .choose_main .choose_item .item1 .item_body .item_icon {
+  padding-right: 15px;
+}
+#choose_part .choose_body .choose_main .choose_item .item1 .item_body .item_icon i {
+  background: rgba(18, 18, 18, 0.1647058824);
+  border-radius: 50%;
+  padding: 15px 13px;
+}
+#choose_part .choose_body .choose_main .choose_item .item1 .item_body .item_text h4 {
+  color: #121212;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  position: relative;
+}
+#choose_part .choose_body .choose_main .choose_item .item1 .item_body .item_text h4::after {
+  position: absolute;
+  content: "";
+  top: 35px;
+  left: 0;
+  height: 1px;
+  width: 40%;
+  background: rgba(18, 18, 18, 0.5058823529);
+}
+#choose_part .choose_body .choose_main .choose_item .item1 .item_body .item_text p {
+  padding-top: 10px;
+  color: rgba(18, 18, 18, 0.4666666667);
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+}
+#choose_part .choose_body .choose_main .choose_item .item_image {
+  width: 33%;
+  height: 300px;
+}
+#choose_part .choose_body .choose_main .choose_item .item_image img {
+  width: 100%;
+  height: 100%;
+}
+#choose_part .choose_body .choose_main .choose_item .item2 {
+  width: 33%;
+  text-align: right;
+}
+#choose_part .choose_body .choose_main .choose_item .item2 .item_body {
+  display: flex;
+  justify-content: space-between;
+}
+#choose_part .choose_body .choose_main .choose_item .item2 .item_body .item_icon {
+  padding-left: 15px;
+}
+#choose_part .choose_body .choose_main .choose_item .item2 .item_body .item_icon i {
+  background: rgba(18, 18, 18, 0.1647058824);
+  border-radius: 50%;
+  padding: 15px 13px;
+}
+#choose_part .choose_body .choose_main .choose_item .item2 .item_body .item_text h4 {
+  color: #121212;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  position: relative;
+}
+#choose_part .choose_body .choose_main .choose_item .item2 .item_body .item_text h4::after {
+  position: absolute;
+  content: "";
+  top: 35px;
+  right: 0;
+  height: 1px;
+  width: 40%;
+  background: rgba(18, 18, 18, 0.5058823529);
+}
+#choose_part .choose_body .choose_main .choose_item .item2 .item_body .item_text p {
+  padding-top: 10px;
+  color: rgba(18, 18, 18, 0.4666666667);
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+}
+
+/*============================================
+        choose css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
